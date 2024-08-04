@@ -1,0 +1,172 @@
+body{
+    font-size: 18px;
+    background: url(../img/body.jpg);
+    color: #fff;
+}
+h3{
+    font-family: "ＭＳ Ｐゴシック";
+    text-align: center;
+}
+.form{
+    width: 600px;
+    font-family: "ＭＳ Ｐゴシック";
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background: #000;
+
+}
+.form div{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "ＭＳ Ｐゴシック";
+    justify-content: center;
+}
+.form .info_lead input{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 8px;
+    font-family: "ＭＳ Ｐゴシック";
+}
+.form .info_lead label{
+    font-family: "ＭＳ Ｐゴシック";
+    padding: 0 0 0.5rem;
+}
+.form .form-example{
+    display: flex;
+    font-family: "ＭＳ Ｐゴシック";
+    justify-content: center;
+    align-items: center;
+}
+.form .form-example input{
+    font-family: "ＭＳ Ｐゴシック";
+    padding: 0.5em 5em;
+}
+.form-example input{
+    background: #fff;
+    border: 1px solid;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.info_city select{
+    background: #fff;
+    border: 1px solid;
+    font-family: "ＭＳ Ｐゴシック";
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.scrolling{
+    width: 1120px;
+    margin: 0 auto;
+    height: 350px;
+    overflow-y: scroll;
+}
+.list{
+    width: 1100px;
+    margin: 0 auto;
+    /* border:1px solid #fff */
+}
+.list caption{
+    font-family: "ＭＳ Ｐゴシック";
+    font-size: 25px;
+    padding: 2rem 0 1rem;
+}
+.list td{
+    width: 25%;
+    border:1px solid #fff;
+    background:#000;
+    font-family: "ＭＳ Ｐゴシック";
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+}
+.list td.heading{
+    font-size: 18px;
+    font-weight: 600;
+}
+.heading.city{
+    cursor: pointer;
+}
+table.list .not_border{
+
+    border: unset;
+    background: unset;
+    text-align: end;
+}
+.btn .csv{
+    border: 1px solid #fff;
+    background: #000;
+    color: #fff;
+    font-family: "ＭＳ Ｐゴシック";
+    border-radius: 5px;
+    padding: .2rem 1rem;
+    cursor: pointer;
+    margin: 1rem 0 0 0;
+}
+.btn{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+}
+.btn_list{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+}
+.btn_list a{
+    border:1px solid #fff;
+    padding: .2rem 1rem;
+    text-decoration: unset;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    margin: 1rem 0 0 0;
+}
+.btn .csv:hover {
+    order: 1px solid #000;
+    background: #fff;
+    color: #000;
+}
+header{
+    padding: 2rem 0.5rem;
+    background: url(../img/header.jpg);
+    
+}
+header .logo{
+font-family: "ＭＳ Ｐゴシック";
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+
+}
+.logo a{
+    text-decoration: unset;
+    color:#fff;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    border-top: 1px solid;
+    width: 99%;
+    background: #000;
+    font-family: "ＭＳ Ｐゴシック";
+    display: flex;
+    padding: 2rem 0.5rem;
+}
+footer div{
+    font-size: 12px;
+}
